@@ -1,0 +1,15 @@
+/*Practica 1:*/
+/*section{
+
+    display:grid;
+}*/
+
+/*Practica 2:*/
+
+.grid {
+    display: grid;  
+    grid-template-columns: 300px 100px; 
+    grid-template-rows: 40px 100px;
+    background: cadetblue;
+ }
+ 

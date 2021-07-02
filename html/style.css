@@ -1,0 +1,199 @@
+@font-face{
+    font-family: 'kiona-r';
+    src: url('Kiona-Regular.ttf') format('truetype');   
+}
+@font-face{
+    font-family: 'avenir';
+    src: url('AvenirLTStd-Roman.otf') format('truetype');   
+}
+
+@media screen and (min-width: 768px) {
+
+ 
+}
+
+
+h1{
+    font-size: 80px;
+    color: #602D75;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+h2{
+        font-size: center;
+        font-family: 'Caveat', cursive;
+        color: rgb(15, 10, 10);
+        text-align: center;
+}
+h3{
+    font-family: 'kiona-r';
+    margin: 40px 40px;
+    margin: 15px;
+    display: block;
+    color: #602D75;
+    font-size: 200%;
+    background-blend-mode: lighten;
+  }
+
+table tr th
+{
+background-color: green;
+width: 50px;
+height: 50px;
+}
+
+table tr
+{background-color: #0FF542;
+	
+}
+
+
+ul {
+    display: inline-flex; flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #CCA897;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    font-family: 'kiona-r';
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  
+    text-decoration: none;
+    font-size: 150%;
+    padding: 18px 74px;
+  }
+  
+  li a:hover {
+    background-color: #89726A;
+  }
+
+
+  /*Quienes Somos?*/
+
+#margensup{
+    background-image: url(../img/bannerprincipal.png);
+    background-repeat: auto;
+}
+
+
+#semicaja{
+  background-image: linear-gradient(to left, #602D75, white );
+  font-family: 'avenir';
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+
+#caja1{
+  font-size: 20px;
+}
+
+#caja2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-items:normal;
+}
+
+#cajainf{
+    background-image: url(../img/bannerprincipal.png);
+    grid-area: footer;
+}
+
+/* COLLARES */
+
+#collares{
+background-image: linear-gradient(to left, #ad8e7f , white);
+display: flex;
+font-family: 'kiona-r';
+font-size: 30px;
+text-decoration: underline;
+margin: center;
+padding: center;
+}
+
+
+/*PULSERAS*/
+#pulseras{
+background-image: linear-gradient(to left, #ad8e7f , white);
+display: inline-flex;
+font-family: 'kiona-r';
+font-size: 30px;
+text-decoration: underline;
+margin: center;
+padding: center;
+}
+
+/*TOBILLERAS*/
+#tobilleras{
+  background-image: linear-gradient(to left, #ad8e7f , white);
+  display: inline-flex; flex-direction: row;
+  justify-content: center;
+  font-family: 'kiona-r';
+  font-size: 30px;
+  text-decoration: underline;
+  margin: center;
+  padding: center;
+}
+
+/*PULSERAS*/
+
+#pulseras{
+  background-image: linear-gradient(to left, #ad8e7f , white);
+  display: inline-flex;
+  font-family: 'kiona-r';
+  font-size: 30px;
+  text-decoration: underline;
+  margin: center;
+  padding: center;
+ 
+}
+
+.pulseras:hover {
+  transform: scale(1.5); 
+}
+
+
+/*PROPIEDADES*/
+
+#cajapropiedades{
+  background-color: #DFCCB1;
+  font-family: 'avenir';
+  margin: 0px;
+}
+
+/*PIEDRAS*/
+
+#textopiedras{
+  background-color: #DFCCB1;
+  font-family: 'avenir';
+  text-align: center;
+  margin: 0px;
+}
+
+#textopiedras2{
+  background-color: #DFCCB1;
+  font-family: 'avenir';
+  text-align: center;
+  margin: 0px;
+}
+
+.zoom {
+  transition: transform .2s; 
+}
+
+.zoom:hover {
+  transform: scale(1.5); 
+}
